@@ -1,0 +1,18 @@
+{
+	"autoload":	{
+		"files": [
+			"Core/fonctions/fonctions.php",
+			"Controller/userController.php",
+			"Controller/postController.php",
+			"Controller/commentController.php",
+			"Controller/chatController.php" 
+		],
+		"psr-4": {
+			"Gschool\\Model\\" : "Model",
+			"Gschool\\Core\\" : "Core"
+		}
+	},
+	"require-dev": {
+		"symfony/var-dumper": "^5.2"
+	}
+}

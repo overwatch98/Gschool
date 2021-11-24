@@ -1,0 +1,434 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-content{
+    font-size: 20px;
+}
+.hide-alert{
+	display: none;
+}
+.p-format{
+	text-align: justify;
+}
+.button-format{
+	text-transform: lowercase;
+}
+.img-svg{
+	width: 30px;
+	margin-left: 15px;
+}
+.footer-content{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+}
+.flash-format{
+	margin: 0 auto;
+	position: absolute;
+	z-index: 1000;
+}
+/*------------------------------------------------------------------
+*
+*	home backend
+*
+*-------------------------------------------------------------------
+*/
+
+
+/*------------------------------------------------------------------
+*
+*	end Home backend
+*
+*-------------------------------------------------------------------
+/*------------------------------------------------------------------
+*
+*	Home page
+*
+*-------------------------------------------------------------------
+*/
+a:hover{
+    text-decoration: none;    
+}
+.imgban{
+	width: 100%;
+	position: relative;
+}
+.imgban img{
+	width: 100%;
+}
+.button{
+	display: none;
+}
+@media screen and (min-width: 1120px){
+	.button{
+		display: block;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		position: absolute;
+		top: 100px;
+	    width: 80%;
+		margin-left: 100px;
+	}
+	.inner-banner{
+		text-align: justify;
+		font-size: 20px;
+		width: 50%;
+		padding: 50px;
+	    background-color: rgba(111, 111, 111, 0.17);
+	}
+	.inner-login{
+		width: 48%;
+		padding: 50px;
+		background-color: rgba(111, 111, 111, 0.17);
+		margin-left: 20px;
+	}
+}
+.btn-para{
+	color: #fff;
+	text-shadow: 1px 1px 8px #000;
+}
+.begin a:hover{
+	text-decoration: none;
+}
+.home{
+    padding-top: 100px;
+}
+.btn-res{
+	padding-top: 77px;
+}
+/*------------------------------------------------------------------
+*
+*	End Homme page
+*
+*-------------------------------------------------------------------
+*/
+/*------------------------------------------------------------------
+*
+*	Blog
+*
+*-------------------------------------------------------------------
+*/
+.blog-banner{
+	width: 100%;
+}
+.blog-banner img{
+	width: 100%;
+}
+/*------------------------------------------------------------------
+*
+*	End Blog
+*
+*-------------------------------------------------------------------
+*/
+
+/*------------------------------------------------------------------
+*
+* Follow list
+*
+*-------------------------------------------------------------------
+*/
+
+.follow-user-img{
+	width: 100px;
+	margin: auto;
+}
+.follow-user-img img{
+	width: 100%;
+}
+
+/*------------------------------------------------------------------
+*
+* End Follow list
+*
+*-------------------------------------------------------------------
+*/
+/*------------------------------------------------------------------
+*
+* Chat
+*
+*-------------------------------------------------------------------
+*/
+.chat-body{
+	padding-top: 100px;
+}
+.chat-profil{
+	padding: 20px;
+}
+.chat-avatar{
+	width: 80px;
+}
+.chat-hr{
+	display: none;
+}
+.chat-avatar img{
+	width: 100%;
+	border-radius: 50%;
+}
+.text-area{
+	height: 100px;
+}
+.chat-content{
+	border: 1px solid #efe;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 15px;
+	box-shadow: -3px 3px 10px #eee;
+}
+/*------------------------------------------------------------------
+*
+* EndChat
+*
+*-------------------------------------------------------------------
+*/
+.min-h{
+	min-height: 400px;
+}
+/*------------------------------------------------------------------
+*
+	Parsley css
+*
+*-------------------------------------------------------------------
+*/
+
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  color: darkred;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+/*------------------------------------------------------------------
+*
+	endParsley css
+*
+*-------------------------------------------------------------------
+*/
+
+/*------------------------------------------------------------------
+*
+*	Account
+*
+*-------------------------------------------------------------------
+*/
+
+.pseudo-icone{
+	display: none;
+}
+.avatar{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+.avatar img{
+	width: 100%;
+	margin-top: -150px;
+	border-radius: 50%;
+}
+.jum-account{
+	min-height: 200px;
+}
+.account-profil-content{
+	width: 100%;
+}
+#box-edit{
+	width: 100%;
+	margin: auto;
+	display: none;
+}
+.display-edit{
+	display: block;
+}
+
+/*------------------------------------------------------------------
+*
+*	EndAccount
+*
+*-------------------------------------------------------------------
+*/
+
+/*------------------------------------------------------------------
+*
+*	Post comment
+*
+*-------------------------------------------------------------------
+*/
+.comment-content{
+	border: 1px solid rgb(250, 248, 248);
+	box-shadow: -2px 2px 10px rgb(240, 240, 240);
+	padding: 20px;
+}
+/*------------------------------------------------------------------
+*
+*	Endpost comment
+*
+*-------------------------------------------------------------------
+*/
+
+/*------------------------------------------------------------------
+*
+*	Forms
+*
+*-------------------------------------------------------------------
+*/
+.form-format{
+	width: 60%;
+	margin: 0 auto;
+}
+/*------------------------------------------------------------------
+*
+*	EndForms
+*
+*-------------------------------------------------------------------
+*/
+
+/*------------------------------------------------------------------
+*
+*	Screen for smartphone
+*
+*-------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 780px){
+	.button{
+		display: none;
+	}
+	.form-format{
+		width: 100%;
+	}
+	.h1-format{
+		font-size: 25px;
+	}
+	.h2-format{
+		font-size: 25px;
+	}
+	.h3-format{
+		font-size: 25px;
+	}
+	.h5-format{
+		font-size: 18px;
+	}
+	.img-svg{
+		width: 20px;
+		margin-left: 5px;
+	}
+	.li-format{
+		font-size: 14px;
+	}
+	.footer-content{
+		font-size: 15px;
+		text-align: center;
+	}
+	.post-title{
+		font-size: 25px;
+	}
+	.logo-gs{
+	    width: 200px;
+	    position: relative;
+	    top: -6px;
+	    left: 10px;
+	}
+	.pseudo-icone{
+		display: block;
+		float: right;
+		position: relative;
+		width: 40px;
+	}
+	.pseudo-icone img{
+		width: 100%;
+		border-radius: 50%;
+	}
+	.avatar{
+		width: 150px;
+		margin: 50px auto;
+	}
+	.jum-account{
+		min-height: 150px;
+	}
+	.chat-avatar{
+		width: 50px;
+	}
+	.chat-hr{
+		display: block;
+	}
+	.avatar img{
+		width: 100%;
+		border-radius: 50%;
+	}
+	.comment-author{
+		width: 100;
+		padding: 15px;
+	}
+	.comment-post{
+		width: 100%;
+		border: 1px solid rgb(250, 248, 248);
+		border-radius: 5px;
+		box-shadow: -2px 2px 10px rgb(240, 240, 240);
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.home{
+		padding-top: 30px;
+	}
+}
+/*------------------------------------------------------------------
+*
+*	End Screen for smartphone
+*
+*-------------------------------------------------------------------
+*/
+
+/*------------------------------------------------------------------
+*
+*	For Tablet
+*
+*-------------------------------------------------------------------
+*/
+@media screen and (max-width: 990px) and (min-width: 780px){
+	.button{
+		top: 100px;
+	}
+	.pseudo{
+		display: block;
+		float: right;
+		position: relative;
+		width: 32px;
+	}
+}
+/*------------------------------------------------------------------
+*
+*	End Table
+*
+*-------------------------------------------------------------------
+*/
